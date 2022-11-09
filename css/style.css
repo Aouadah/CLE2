@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.title {
+    font-size: 4em;
+    font-family: "Lobster", Arial, sans-serif;
+    text-align: center;
+    color: #96DED1;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: "Lobster", Arial, sans-serif;
+    text-align: center;
+  }
+
+body {
+    background-color: lightcoral;
+}
+
+.images {
+    display: flex !important;
+    flex: 1 !important;
+    justify-content: space-between !important;
+    animation: movedown 2s ease-out;
+}
+
+.images-text {
+    display: flex !important;
+    flex: 1 !important;
+    justify-content: space-around !important;
+    animation: movedown 2s ease-out;
+}
+
+@keyframes movedown {
+    from {
+      opacity:0;
+      transform: scale(1.2) translateY(0px);
+    }
+  
+    to {
+      opacity:1;
+      transform: scale(1) translateY(0);
+    }
+  }
+
+  .images_other {
+    display: flex !important;
+    flex: 1 !important;
+    justify-content: space-around !important;
+  }
+
